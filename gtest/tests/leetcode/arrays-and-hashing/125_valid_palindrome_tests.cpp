@@ -15,6 +15,7 @@ INSTANTIATE_TEST_CASE_P(Default, ValidPalindromeTest,
   ::testing::Values(
     std::make_pair("A man, a plan, a canal: Panama", true),
     std::make_pair("race a car", false),
-    std::make_pair(" ", true)
+    std::make_pair(" ", true),
+    std::make_pair("0P", false)
   ),
 );

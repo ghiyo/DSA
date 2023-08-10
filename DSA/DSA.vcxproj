@@ -103,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\LeetCode.h" />
+    <ClInclude Include="include\ListNode.h" />
+    <ClInclude Include="include\Node.h" />
+    <ClInclude Include="include\TreeNode.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

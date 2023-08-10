@@ -5,7 +5,7 @@ protected:
   Solution solution;
 };
 
-TEST_P(ValidPalindromeTest, CheckForDuplicates) {
+TEST_P(ValidPalindromeTest, CheckForPalindrome) {
   std::string input = GetParam().first;
   bool expectedOutcome = GetParam().second;
   EXPECT_EQ(expectedOutcome, solution.isPalindrome(input));

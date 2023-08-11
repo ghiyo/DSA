@@ -17,7 +17,7 @@ O(n^3).
 
 std::string Solution::longestPalindrome(std::string s) {
   long long int res_start = 0, res_length = 0;
-  size_t n = s.length();
+  long long int n = s.length();
   for (long long int i = 0; i < n; i++) {
     // odd
     long long int l = i, r = i;

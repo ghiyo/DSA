@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tests\leetcode\1d-dynamic-programming\5_longest_palindromic_substring_tests.cpp" />
+    <ClCompile Include="tests\leetcode\2d-dynamic-programming\1143_longest_common_subsequence.cpp" />
     <ClCompile Include="tests\leetcode\arrays-and-hashing\125_valid_palindrome_tests.cpp" />
     <ClCompile Include="tests\leetcode\arrays-and-hashing\217_contains_duplicate_tests.cpp" />
     <ClCompile Include="pch.cpp">

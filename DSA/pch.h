@@ -9,7 +9,11 @@
 // Standard Library
 #include <set>
 #include <unordered_set>
+#include <unordered_map>
 #include <string>
+
+// Algorithms Library
+#include <algorithm>
 
 // Local 
 #include "./include/LeetCode.h"

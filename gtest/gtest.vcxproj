@@ -121,6 +121,7 @@
   <ItemGroup>
     <ClCompile Include="tests\leetcode\1d-dynamic-programming\5_longest_palindromic_substring_tests.cpp" />
     <ClCompile Include="tests\leetcode\2d-dynamic-programming\1143_longest_common_subsequence.cpp" />
+    <ClCompile Include="tests\leetcode\advanced-graphs\269_alien_dictionary_tests.cpp" />
     <ClCompile Include="tests\leetcode\arrays-and-hashing\125_valid_palindrome_tests.cpp" />
     <ClCompile Include="tests\leetcode\arrays-and-hashing\217_contains_duplicate_tests.cpp" />
     <ClCompile Include="pch.cpp">
@@ -130,6 +131,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tests\leetcode\backtracking\39_combination_sum_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DSA\DSA.vcxproj">

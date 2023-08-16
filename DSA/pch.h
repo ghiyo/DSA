@@ -6,17 +6,16 @@
 
 #include <iostream>
 
-// Standard Library
+// Standard Libraries
 #include <set>
 #include <unordered_set>
 #include <unordered_map>
 #include <string>
 
-// Algorithms Library
+// Algorithms & Utility Libraries
 #include <algorithm>
+#include <cmath>
+
 
 // Local 
 #include "./include/LeetCode.h"
-
-// Debugging
-#define LOG(x) std::cout << x << std::endl;

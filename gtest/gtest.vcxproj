@@ -132,6 +132,7 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tests\leetcode\backtracking\39_combination_sum_tests.cpp" />
+    <ClCompile Include="tests\leetcode\binary-search\153_find_minimum_in_rotated_sorted_array_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DSA\DSA.vcxproj">

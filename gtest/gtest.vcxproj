@@ -88,7 +88,6 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -105,7 +104,6 @@
       <PreprocessorDefinitions>X64;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -135,6 +133,7 @@
     <ClCompile Include="tests\leetcode\binary-search\153_find_minimum_in_rotated_sorted_array_tests.cpp" />
     <ClCompile Include="tests\leetcode\bit-manipulation\371_sum_of_two_integers_tests.cpp" />
     <ClCompile Include="tests\leetcode\graphs\417_pacific_atlantic_water_flow_tests.cpp" />
+    <ClCompile Include="tests\leetcode\greedy\53_maximum_subarray_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DSA\DSA.vcxproj">
